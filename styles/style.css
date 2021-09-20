@@ -10,6 +10,7 @@ body{
 
 #Contenido{
     background-color: rgb(129, 124, 56);
+    background: linear-gradient(to right, rgb(129,124,56), rgb(129, 124, 100));
     padding: 25px;
     max-width: 800px;
     width: 92%;
@@ -20,6 +21,7 @@ body{
     margin-right: auto;
     
 }
+
 /*Barra de navegacion*/
 nav {
     color: rgb(255, 255, 255);
@@ -88,6 +90,7 @@ nav a:hover{
 
 .tarjeta{
     background-color: brown;
+    
     width: 200px;
     height: 210px;
     color: aliceblue;
@@ -118,6 +121,7 @@ nav a:hover{
     padding: 25px;
     /*Para que se mantenga el tamaño*/
     box-sizing: border-box;
+    box-shadow: 10px 10px 5px black;
 }
 /*formulario*/
 
@@ -141,6 +145,7 @@ form input,textarea {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
+    font-family: 'Grechen Fuemen', cursive;
 }
 
 footer{
@@ -153,10 +158,17 @@ footer{
     text-align: center;
     padding: 15px;
     font-weight: 800;
+    font-size: 12px;
     box-sizing: border-box;
 }
 
 .Encabezado{
     text-align: center;
     justify-content: center;
+}
+
+.TextoSansPro{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
 }
