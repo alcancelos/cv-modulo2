@@ -171,4 +171,13 @@ footer{
     font-size: 18px;
     font-weight: 800;
     font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(31, 32, 31);;
+}
+
+.Col2{
+    width: 100%;
+    column-count: 2;
+    column-gap: 25px;
+    margin-top: 0;
+    color: rgb(31, 32, 31);
 }
