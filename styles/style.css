@@ -99,16 +99,16 @@ nav a:hover{
 .tarjeta h2{
     color: burlywood;
     font-size: 22px;
+    margin-top: 4px;
 }
 
 .imagen{
     float:none;
     border-radius: 10px;
-    border: 0;
-    filter: drop-shadow(10px 10px 5px #000000);
--webkit-filter: drop-shadow(10px 10px 5px #000000);
--moz-filter: drop-shadow(10px 10px 5px #000000);
+    border: solid 5px black;
+    border-image: round;
 }
+.imagen:hover {filter: saturate(180%);}
 
 .TarjetaFoto{
     width: 500px;
@@ -117,7 +117,7 @@ nav a:hover{
     align-content: center;
     border-radius: 25px;
     background-color: var(--MarronFav);
-    padding: 25px;
+    padding: 20px;
     /*Para que se mantenga el tamaño*/
     box-sizing: border-box;
     box-shadow: 10px 10px 5px black;
