@@ -180,4 +180,14 @@ footer{
     column-gap: 25px;
     margin-top: 0;
     color: rgb(31, 32, 31);
+    column-rule: 1px solid black;
+}
+
+/*Con esto quito el margen superior de la P que me molesta */
+.TextoSansPro p{
+    margin: 0;
+}
+
+.Iconos{
+    color: rgb(58, 16, 16);
 }
