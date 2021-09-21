@@ -66,9 +66,6 @@ nav a:hover{
     border-color: black;
 }
 
-
-
-
 /*BOTONES*/
 .Boton{
     padding: 5px;
@@ -108,7 +105,9 @@ nav a:hover{
     float:none;
     border-radius: 10px;
     border: 0;
-    
+    filter: drop-shadow(10px 10px 5px #000000);
+-webkit-filter: drop-shadow(10px 10px 5px #000000);
+-moz-filter: drop-shadow(10px 10px 5px #000000);
 }
 
 .TarjetaFoto{
@@ -162,10 +161,6 @@ footer{
     box-sizing: border-box;
 }
 
-.Encabezado{
-    text-align: center;
-    justify-content: center;
-}
 
 .TextoSansPro{
     font-size: 18px;
